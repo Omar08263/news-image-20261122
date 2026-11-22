@@ -20,10 +20,11 @@ built for the make.fun competition
 - **New Delhi:** Nepal's Prime Minister Balendra Shah arrives for a
   two-day state visit to India — energy deals and talks with Modi on
   Monday (The Hindu, arrival Sunday 22 November).
-- **Strip — Hong Kong:** voters go to the polls for the Election
-  Committee subsector elections — 856 candidates for 723 seats on the
-  body that picks the city's next leader (SCMP / China Daily Asia,
-  polls Sunday 22 November, 9am–6pm).
+- **Panel — Hong Kong (illustrated):** voters queue at a polling
+  station beside a ballot box for the Election Committee subsector
+  elections — 856 candidates for 723 seats, polls 9am–6pm
+  (Hong Kong Government Registration and Electoral Office,
+  19 November notice; China Daily Asia, 22 November).
 
 Every story on the poster happened, or was first reported, on
 Sunday 22 November 2026. Stories from Friday and Saturday that the
@@ -38,12 +39,17 @@ strikes, the Pentagon Canada memo and the Trump card-cap vow (21 Nov).
 
 ## How it is built
 
-The three scene images in `assets/` were generated fresh in this
+The four scene images in `assets/` were generated fresh in this
 session (no text in them). `entry.png` (1024×1024 JPEG, under 1 MiB)
 was composed from them with a Python/PIL script that renders all
-captions in DejaVu Sans Bold. `main.ts` copies `entry.png` to the
-output directory byte for byte, so both graded runs write identical
-bytes. No network is used at run time.
+captions in DejaVu Sans Bold. Layout: masthead 0–118, hero COP31
+118–500, two panels 500–860, gold divider 868–870, Hong Kong panel
+876–984 (ballot-box image left, headline right), footer at y=990 —
+its lowest ink row is 1010, a 13px bottom margin, measured by pixel
+scan, so the date line sits fully inside the frame. `main.ts` checks
+the poster is a whole JPEG of 1024×1024 and under 1 MiB, then copies
+`entry.png` to the output directory byte for byte, so both graded
+runs write identical bytes. No network is used at run time.
 
 ## Run it
 
