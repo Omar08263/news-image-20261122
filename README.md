@@ -7,14 +7,14 @@ built for the make.fun competition
 ## The poster
 
 - **Hero — COP31, Antalya:** after two days of overtime, the climate
-  talks put a final text to 200 nations; the approval vote is held
-  Sunday morning (Reuters / Straits Times, 22 November).
+  talks put a final text to nearly 200 nations; the approval vote is
+  held Sunday morning (Reuters / Straits Times, 22 November).
 - **Gulf — Bahrain:** Iran's IRGC claims new strikes on two US Patriot
   radars at al-Riffa and Awali, and shows downed US drones
   (ANI / The Tribune, first reported 22 November).
-- **Washington:** Chris Van Hollen challenges Chuck Schumer for the
-  Senate leadership as 13 new Democrats split; the vote is 1 December
-  (AP, 22 November).
+- **New Delhi:** Nepal's Prime Minister Balendra Shah arrives for a
+  two-day state visit to India — energy deals and talks with Modi on
+  Monday (The Hindu, arrival Sunday 22 November).
 - **Strip — G20:** leaders meet in Johannesburg, the first G20 summit
   on African soil; the United States is absent.
 
